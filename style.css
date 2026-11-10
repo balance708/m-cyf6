@@ -37,12 +37,11 @@
   width:140px;
   max-width: 40%;
   height: auto;
-  float: left;
-  margin-top: 35px;
-  margin-right: 16px;
+  float: none;
+  margin: 0;
+  position: static;
   filter: invert(1);
   mix-blend-mode: screen;
-  justify-content: center;
  
 }
 
