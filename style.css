@@ -39,6 +39,7 @@
   height: auto;
   float: none;
   margin: 0;
+  margin-right: 30px;
   filter: invert(1);
   mix-blend-mode: screen;
   justify-content: center;
@@ -91,7 +92,7 @@
 .office-yoga {
   display: block;
   width: 40%;
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   margin: 40px auto;
   
@@ -101,8 +102,8 @@
     color: #234638;
   font-family: Montserrat, Arial, sans-serif;
     font-size:  14px;
-    margin-top: 15px;
-    text-align: left;
+    margin: 30px;
+    text-align: center;
     font-weight:10;
 }
 
@@ -143,15 +144,23 @@
   margin: 20px auto;
 }
 
+.benefits-left li,
 .benefits-list li {
   color:#234638;
   font-family: Montserrat, Arial, sans-serif;
   font-weight: 500;
   font-size: 14px; 
+  position: relative;
+  left: 36px;
   }
 
+.benefits-left li + li,
 .benefits-list li +li {
   margin-top: 10px;
+  color:#234638;
+  font-family: Montserrat, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px; 
 }
 
 .closing-header {
@@ -166,7 +175,8 @@
     color:#234638;
     font-family: Montserrat, Arial, sans-serif;
     font-size: 14px;
-    text-align: left;
+    text-align: center;
+    margin: 30px;
 }
 
 .wellness-coach {
@@ -176,6 +186,20 @@
   height: auto;
   margin: 0 auto;
 }
+
+
+
+.employee-statement {
+  text-align: center;
+  margin: 60px 0 0;
+  color: #234638;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 14px;
+  
+}
+
+
+
 
 .footer-box {
   background-color: #234638;
@@ -192,7 +216,24 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 1;
-  margin: 0; 
+  margin: 20px; 
   text-align: center;
   
+}
+
+.brand-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 10px;
+  margin: 40px 0 0;
+  color: #fff;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.brand-services span{
+  white-space: nowrap;
+
 }
