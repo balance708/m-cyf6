@@ -102,7 +102,7 @@
   font-family: Montserrat, Arial, sans-serif;
     font-size:  14px;
     margin-top: 15px;
-    text-align: center;
+    text-align: left;
     font-weight:10;
 }
 
@@ -120,10 +120,10 @@
 
 .office-massage {
   display: block;
-  width: 100%;
+  width: 150%;
   max-width: 400px;
   height: auto;
-  margin-inline:auto;
+  margin-inline: 0 auto;
 }
 
 .benefits-heading {
@@ -132,6 +132,15 @@
   margin-top: 100px;
   font-size: 18px;
   text-align: center;
+}
+
+.benefits-container {
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+  align-items: center;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 20px auto;
 }
 
 .benefits-list li {
