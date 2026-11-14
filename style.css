@@ -20,28 +20,40 @@
     font-weight: 500;
     text-align: right;
     margin-bottom: 20px;
+    margin-top: 22px;
+    gap: 32px;
   }
 
 .serenity-box {
   background-color: #234638;
-  padding : 17px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
 }
 
 .serenity-box .serenity-logo {
   width:140px;
   max-width: 40%;
   height: auto;
-  float: left;
-  margin-top: 35px;
-  margin-right: 16px;
+  float: none;
+  margin: 0;
   filter: invert(1);
   mix-blend-mode: screen;
   justify-content: center;
  
 }
 
-.serenity-nav {
+.serenity-box .serenity-logo
+.brand-name .brand-detail {
+  text-align: center;
+  margin: 0;
+  display: block;
+  margin-top: 12px;
+}
+
+ .serenity-nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
