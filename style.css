@@ -205,6 +205,18 @@ body {
   margin: 0 auto;
 }
 
+.closer {
+  color:#234638;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 0 20px
+}
+
 .footer-box {
   background-color: #234638;
   padding: 20px;
